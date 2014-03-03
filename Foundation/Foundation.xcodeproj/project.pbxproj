@@ -278,6 +278,13 @@
 			remoteGlobalIDString = AEEE222811DC2B0600029872;
 			remoteInfo = "Cedar-StaticLib";
 		};
+		AED5717B18C54AE1004AD37D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEBCCB45168B7E370056EE83 /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE02E7E4184EABCD00414F19;
+			remoteInfo = iOSFrameworkSpecs;
+		};
 		AEE971CC1708EB410094B5A2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AEE971BF1708EB400094B5A2 /* FakeHTTP.xcodeproj */;
@@ -800,6 +807,7 @@
 				AEBCCB5D168B7E380056EE83 /* FocusedSpecs */,
 				AEBCCB5F168B7E380056EE83 /* libCedar-StaticLib.a */,
 				AEBCCB61168B7E380056EE83 /* iOSSpecs.app */,
+				AED5717C18C54AE1004AD37D /* iOSFrameworkSpecs.app */,
 				AEBCCB63168B7E380056EE83 /* OCUnitApp.app */,
 				AEBCCB65168B7E380056EE83 /* OCUnitAppTests.octest */,
 				AEEECC3D181F368F006B52CD /* XCUnitAppTests.xctest */,
@@ -1100,6 +1108,13 @@
 			fileType = wrapper.cfbundle;
 			path = OCUnitAppLogicTests.octest;
 			remoteRef = AEBCCB66168B7E380056EE83 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AED5717C18C54AE1004AD37D /* iOSFrameworkSpecs.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = iOSFrameworkSpecs.app;
+			remoteRef = AED5717B18C54AE1004AD37D /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		AEE971CD1708EB410094B5A2 /* libFakeHTTP.a */ = {
