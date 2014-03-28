@@ -10,15 +10,6 @@
 - (id)selectionSegueTemplate;
 @end
 
-@interface UIStoryboardSegueTemplate
-- (id)identifier;
-- (id)viewController;
-@end
-
-@interface UITableViewCell ()
-- (id)selectionSegueTemplate;
-@end
-
 @implementation UITableViewCell (Spec)
 
 - (void)tap {
